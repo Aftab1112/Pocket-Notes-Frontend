@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://pocket-notes-backend-lc8e.onrender.com/";
+const API_BASE_URL = "https://pocket-notes-backend-lc8e.onrender.com";
 
 export const fetchGroups = () => axios.get(`${API_BASE_URL}/groups`);
 export const createGroup = (group) =>
